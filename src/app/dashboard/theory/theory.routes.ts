@@ -3,7 +3,7 @@ import { TheoryComponent } from './theory.component';
 
 export const TheoryRoutes: Route[] = [
   	{
-    	path: 'theory',
+    	path: 'bpwin',
     	component: TheoryComponent
   	}
 ];

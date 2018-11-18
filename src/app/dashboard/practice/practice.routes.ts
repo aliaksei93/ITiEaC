@@ -3,7 +3,7 @@ import { PracticeComponent } from './practice.component';
 
 export const PracticeRoutes: Route[] = [
   	{
-    	path: 'practice',
+    	path: 'assistant-choice',
     	component: PracticeComponent
   	}
 ];
