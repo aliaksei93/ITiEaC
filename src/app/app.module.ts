@@ -12,6 +12,7 @@ import {AppRoutingModule}     from './app.routes';
 
 import {AppComponent}   from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {RegistrationComponent} from './registration/registration.component';
 
 @NgModule({
   imports: [
@@ -25,7 +26,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     FrameModule.forRoot()
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    RegistrationComponent
   ],
   providers: [
 
