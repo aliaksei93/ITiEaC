@@ -1,0 +1,28 @@
+.bio-image {
+  width: 300px;
+  margin: 50px auto;
+}
+.main-text {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.author-table {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+.author-table td{
+  width: 50%;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+/* нечетная строка таблицы класса stripy */
+.author-table tr:nth-child(2n+1){
+  background-color: #f0f5fa;
+}
+
+/* четная строка таблицы класса stripy */
+.author-table tr:nth-child(2n){
+  background-color: #edecd8;
+}
